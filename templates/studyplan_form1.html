@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> CramFactory - StudyPlan </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='studyplan_form1.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0/dist/tf.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div class="outer-block">
+        <div class="container">
+            <form>
+                <p class="describe-text"> Describe what you need </p>
+                        <!-- <div class="display-column"> -->
+                            <div class="display-row">
+                                <div style="margin-right:6.5rem;">
+                                    <p class="input-header"> Your name <span class="bracket"> (Optional) </span> </p>
+                                    <input type="text" class="input-field" id="name" />
+                                </div>
+                                <div>
+                                    <p class="input-header"> Days remaining? </p>
+                                    <input type="number" min="1" class="input-field days" id="days">
+                                </div>
+                            </div>
+                        
+                            <br>
+                            <div class="display-row">
+                                <div class="display-column">
+                                    <p class="difficulty-text"> Subjects with their difficulty level</p> 
+                                    <p class="difficulty-subtext"> (Scale 0-5, 0 being easy and 5 being difficult) </p> 
+                                </div>
+                                <div class="display-column">
+                                    <hr style="width: 100px; height: 3px; background: #530000; border: #530000; border-radius: 20px;">
+                                </div>
+                            </div>
+
+                            <div class="display-row">
+                                <div style="margin-right: 8rem;">
+                                    <div class="display-column">
+                                        <p class="input-header"> Subjects </p>
+                                        <input type="text" class="input-field"> 
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="display-column">
+                                        <p class="input-header"> Difficulty <span class="bracket"> (Enter 1 to 5) </span> </p>
+                                        <input type="text" class="input-field difficulty" > 
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br> <br>
+                            <div class="display-row">
+                                <div class="display-column">
+                                <button type="submit" class="browse-button"> Browse </button> 
+                                <a href="recommendations_form.html"> <p class="study-plan-link"> I want recommendations </p> </a>
+                                </div>
+                            </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

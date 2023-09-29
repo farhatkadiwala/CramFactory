@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title> CramFactory </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='recommendations_form.css') }}">
+    <body>
+        <div class="outer-block">
+            <div class="container">
+                <form id="form" action="{{ url_for('getResults') }}" method='POST'>
+                    <p class="describe-text"> Describe what you need </p>
+                    <div class="display-row">
+                        <div class ="display-column">
+                            <p class="input-header"> Your name <span class="bracket"> (Optional) </span> </p>
+                            <input type="text" class="input-field" id="name"> 
+                        </div>
+                        <div class="display-column">
+                            <p class="input-header"> Subject </p>
+                            <input type="text" class="input-field subject" id="subject">
+                        </div>
+                    </div>
+                    <div class="display-row">   
+                        <div class="display-column">
+                            <p class="input-header"> Topics <span class="bracket"> (May as well paste your syllabus here 😛) </span> </p>
+                            <input type="text" class="input-field topics" id="topics">
+                        </div>
+                    </div>
+
+                    <br> <br>
+                    <div class="display-row">
+                        <div>
+                        <button type="submit" class="browse-button"> Browse </button> 
+                        <a href="studyplan_form1.html"> <p class="study-plan-link"> I want a study plan </p> </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</head>
