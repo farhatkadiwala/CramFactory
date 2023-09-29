@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Syne;
+    src: url(fonts/Syne-VariableFont.ttf);
+  }
+
+body{
+    resize: both;
+    background-image: url(background1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: 'Syne';
+}
+
+.home-page-text{    
+    margin-left: 600px;
+    margin-top: 190px;
+    text-align: right;
+    width: 500px;
+    color: #FFFFFF;
+    font-family: Syne;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 45px; 
+}
+
+.perfect{
+    font-size: 30px;
+    font-weight: 730;
+    color: #937300;
+}
+
+.text-before-button{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 880px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.begin-button{
+    display: flex;
+    font-family: 'Syne';
+    font-size: 14px;
+    padding: 6px 22px;
+    align-items: center;
+    border-color: white;
+    border-radius: 30px;
+    border-style: solid;
+    background-color: white;
+    margin-top: -10px;
+    margin-left: 1000px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.begin-button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    cursor:grab;
+    color: white;
+}
