@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Syne;
+    src: url(fonts/Syne-VariableFont.ttf);
+}
+
+@font-face {
+    font-family: Urbanist;
+    src: url(fonts/Urbanist-VariableFont.ttf);
+}
+
+body{
+    color: white;
+    resize: both;
+    background: linear-gradient(87deg, #000 3.82%, #530000 174.76%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    font-family: 'Syne';
+    font-size: 26px;
+}
+
+.outer-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    /* vertical-align: middle; */
+}
+
+.container{
+    width: auto;
+    height: auto;
+    padding: 4rem;
+    border-radius: 50px;
+    background: #F0F0F0;
+}
+
+.describe-text{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 8%;
+}

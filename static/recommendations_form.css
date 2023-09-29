@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Syne;
+    src: url(fonts/Syne-VariableFont.ttf);
+}
+
+@font-face {
+    font-family: Urbanist;
+    src: url(fonts/Urbanist-VariableFont.ttf);
+}
+
+body{
+    resize: both;
+    background: linear-gradient(87deg, #000 3.82%, #530000 174.76%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    font-family: 'Syne';
+}
+
+.outer-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    /* vertical-align: middle; */
+}
+
+.container{
+    width: auto;
+    height: auto;
+    padding: 4rem;
+    border-radius: 50px;
+    background: #F0F0F0;
+}
+
+.describe-text{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 8%;
+}
+
+.display-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.display-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.first-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-row-left{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.input-header{
+    font-family: 'urbanist';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bracket{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.input-field{
+    font-family: 'Syne';
+    font-size: 16px;
+    font-weight: 480;
+    width: 140px;
+    padding: 3px;
+    background-color: rgba(0,0,0,0);
+    border-style:ridge;
+    border-color: rgba(182, 182, 182, 0.4);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: -3%;
+}
+
+.subject{
+    width: 100px;
+}
+
+.first-row-right{
+    display: inline-block;
+    margin-left: 82px;
+    vertical-align: middle;
+}
+
+.second-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topics{
+    width: 325px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.third-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.browse-button{
+    padding: 6px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 34px;
+    background: #937300;
+    border-style: none;
+    font-family: 'Syne';
+    font-size: 14px;
+    color: white;
+}
+
+.browse-button:hover{
+    cursor: pointer;
+    background-color: rgba(183, 144, 3, 1);
+}
+
+a:enabled, a:visited{
+    color: rgba(41, 146, 160, 1);
+}
+
+a:hover, a:active{
+    color: rgba(56, 187, 205, 1);
+}

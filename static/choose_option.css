@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Syne;
+    src: url(fonts/Syne-VariableFont.ttf);
+}
+
+@font-face {
+    font-family: Urbanist;
+    src: url(fonts/Urbanist-VariableFont.ttf);
+}
+
+body{
+    resize: both;
+    background: linear-gradient(71deg, #000 -25.88%, #530000 174.04%);
+    background-attachment: fixed;
+    background-size: auto;
+    font-family: 'Syne';
+}
+
+.help-text{
+    margin-top: 100px;
+    text-align: center;
+    color: #937300;
+    font-variant-numeric: lining-nums tabular-nums stacked-fractions;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; 
+}
+
+.outer-block{
+    display: block;
+    position: relative;
+    margin-top: 70px;
+}
+
+.inner-block{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-inner-block{
+    display: inline-block;
+}
+
+.text{
+    font-size: 22px;
+    color: white;
+}
+
+.subtext{
+    position: relative;
+    font-family: 'Urbanist';
+    font-size: 16px;
+    color: #FFF;
+    line-height: 45px;
+    position: relative; 
+    margin-top: -20px;
+}
+
+.button{
+    display: inline-block;
+    font-family: 'Syne';
+    font-size: 14px;
+    padding: 6px 22px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.get-rec-button{
+    margin-left: 50px;
+}
+
+.get-plan-button{
+    margin-left: 200px;
+}
+
+.button:hover{
+    background-color: rgba(255,255,255,0);
+    color: white;
+    cursor: pointer;
+}
+
+.row-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
